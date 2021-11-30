@@ -1,0 +1,43 @@
+/* Header Area start */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: navy;
+}
+header a.logo {
+  font-size: 2em;
+  text-decoration: none;
+  color: #fff;
+}
+header .navbar ul {
+  display: flex;
+}
+header .navbar ul li a {
+  display: inline-block;
+  color: #fff;
+  padding: 10px 5px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+/* Header Area End */
+
+
+/* Footer Area Start */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer .copyright {
+  background-color: navy;
+  padding: 10px 0;
+}
+footer .copyright p {
+  color: #fff;
+  text-align: center;
+}
+footer .copyright p a {
+  color: tomato;
+  text-decoration: none;
+}
+/* Footer Area End */
